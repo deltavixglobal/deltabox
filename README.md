@@ -25,9 +25,18 @@ Large Language Models (LLMs) and Agentic AI have evolved to act as intelligent "
 
 ## 🧠 The Problem & The Solution
 
-**The Problem:** Traditional automation tools rely on brittle, application-specific hooks (like Puppeteer for browsers or WinAppDriver for Windows). They break instantly when UI layouts change, use Shadow DOMs, or rely heavily on dynamic rendering. They force the AI to read thousands of tokens of useless structural code just to click a button.
+**The Problem:** Modern AI agents are computationally brilliant but physically constrained. When engineers attempt to give AI access to software, they are forced to build rigid, application-specific API integrations or rely on brittle, DOM-based web automation frameworks. These methods fail when target software lacks an API, changes its underlying code structure, or deploys anti-automation defenses.
 
-**The Solution:** DeltaBox provides a true **Visual Sandbox for the entire Operating System**. Your AI agent "sees" exactly what a human sees (via highly token-optimized AT-SPI2 semantic trees across the entire desktop) and clicks exactly where a human would click (via coordinate-based API commands mapped to X11). Because the interaction happens at the OS level, it is completely agnostic to underlying application code or website structure, perfectly modeling true human-computer interaction.
+**The Solution: Sandboxed Computer Automation.** DeltaBox provides a true **Visual Sandbox for the entire Operating System**. Your AI agent "sees" exactly what a human sees (via highly token-optimized AT-SPI2 semantic trees across the entire desktop) and clicks exactly where a human would click (via coordinate-based API commands mapped to X11). Because the interaction happens at the OS level, it is completely agnostic to the underlying application's code, perfectly modeling true human-computer interaction without ever touching the DOM or application source.
+
+## 🎯 Domain Use Cases
+
+DeltaBox's OS-level agnostic approach makes it the ultimate engine for diverse automation workloads:
+
+*   **Agentic AI "Bodies"**: Provide a safe, isolated sandbox for autonomous agents (like LangChain agents, Claude Computer Use) to browse the web, write code, or execute complex desktop workflows without compromising your host machine.
+*   **Non-API Solutions**: Automate interactions with legacy desktop software, enterprise portals, or proprietary ERP systems that completely lack modern APIs. If a human can see and click it on a screen, your AI can automate it.
+*   **Next-Gen Automation Testing**: Test desktop and web applications exactly as a user experiences them. Move beyond brittle CSS selectors and test full end-to-end OS interactions visually.
+*   **Massive Parallel Workflows**: Spin up 100 isolated graphical containers simultaneously to execute complex, distributed autonomous research or cross-application tasks.
 
 ## ✨ Core Offerings
 
