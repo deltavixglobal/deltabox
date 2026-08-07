@@ -86,7 +86,7 @@ DeltaBox is designed with a microservice architecture to ensure stability and is
 ### Prerequisites
 - Docker Engine (v24.0+)
 - Docker Compose
-- Minimum 4GB RAM (8GB+ recommended for multiple concurrent nodes)
+- Extremely Lightweight: The core image consumes only ~400 MB of RAM per node.
 - Cross-Platform: Works on **Windows (WSL2)**, **macOS (Apple Silicon & Intel)**, and **Linux**.
 
 ### 1. Clone the Repository
@@ -154,14 +154,15 @@ Instead of writing custom API wrappers, you can connect your agent directly to a
 
 ## 👨‍💻 Created By
 
-**DeltaBox** was created and open-sourced by **Palash Kumbalwar** at **Deltavix Global** to empower developers building the next generation of autonomous AI systems.
+**DeltaBox** was created and made completely free to use by **Palash Kumbalwar** at **Deltavix Global** to empower developers building the next generation of autonomous AI systems.
 
 - 🔗 **LinkedIn**: [Palash Kumbalwar](https://www.linkedin.com/in/palashkumbalwar)
 - 🌐 **Company**: [Deltavix Global](https://www.deltavixglobal.com)
-- 📧 **Contact for Customization**: [info@deltavixglobal.com](mailto:info@deltavixglobal.com)
+- 📧 **Contact for Customization & Enterprise Support**: [info@deltavixglobal.com](mailto:info@deltavixglobal.com)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This software is **Free to Use** for personal, research, and commercial purposes. 
+*Note: DeltaBox is free software, but it is not released under an Open Source Initiative (OSI) license. Please refer to the included LICENSE file for redistribution constraints.*
