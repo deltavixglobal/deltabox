@@ -1,7 +1,7 @@
 # DeltaBox
 
 <div align="center">
-<img src="assets/logo.ico" width="120" height="120" alt="DeltaBox Logo" />
+<img src="assets/logo.png" width="200" height="200" alt="DeltaBox Logo" />
   <h3>Orchestration Engine for Agentic AI</h3>
   <p>A self-hosted, highly scalable graphical environment orchestration platform designed specifically to give AI Agents a "Body".</p>
   
