@@ -1,0 +1,15 @@
+services:
+
+  deltabox-manager:
+    image: deltabox:latest
+    container_name: deltabox-manager
+    restart: unless-stopped
+    environment:
+      - ROLE=manager
+      - POOL_TOTAL_CPUS=4
+      - POOL_TOTAL_RAM_GB=8
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${PWD}/workspaces:/all_workspaces
+    ports:
+      - "9090:80"
