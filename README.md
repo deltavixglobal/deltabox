@@ -56,6 +56,9 @@ For an LLM to accurately interact with a complex GUI, it needs context. DeltaBox
 
 ### 2. Humanized Biomechanical Interaction
 DeltaBox does not instantly teleport the mouse. The **Delta Control Protocol** includes built-in physics engines that simulate human interaction:
+
+![DeltaBox Visual Sandbox](assets/ss_vnc.png)
+
 *   **Bezier Curve Mouse Movements**: Complex mathematical curves simulate natural hand movements to target coordinates.
 *   **Micro-Tremor Injection**: Injects localized noise simulating human hand jitter.
 *   **Natural Typing Cadence**: Keyboard commands simulate human typing delays and errors.
@@ -68,6 +71,8 @@ For heavy autonomous data gathering, IP diversity is critical. DeltaBox offers n
 
 ### 5. The Cloud Console
 While your AI agents operate in the background, you maintain complete oversight. The **DeltaBox Cloud Console** is a premium, web-based dashboard that allows human operators to view live streams of active nodes, interact manually with the environment if an agent gets stuck, and monitor system resources in real-time.
+
+![DeltaBox Cloud Console](assets/ss_console.png)
 
 ---
 
@@ -121,6 +126,8 @@ http://localhost:9090
 ## 🔌 Delta Control Protocol (API Reference)
 
 Once a Delta Node is spawned, it exposes the **Delta Control Protocol V1.0**. Your AI Agent uses this API to interact with the environment. 
+
+![Delta Protocol API](assets/ss_delta_protocol.png)
 
 A full interactive Swagger UI is generated dynamically for every node at `http://localhost:9090/api/<node id>/docs`.
 
