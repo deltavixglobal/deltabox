@@ -162,7 +162,13 @@ Instead of writing custom API wrappers, you can connect your agent directly to a
 
 ---
 
-## 📄 License
+## 📄 License (Deltavix Free-to-Use Proprietary License)
 
-This software is **Free to Use** for personal, research, and commercial purposes. 
-*Note: DeltaBox is free software, but it is not released under an Open Source Initiative (OSI) license. Please refer to the included LICENSE file for redistribution constraints.*
+This software is completely **Free to Use** for personal, research, and commercial purposes (e.g., using it to run your own AI agents, scraping workflows, or automation pipelines).
+
+**However, this is NOT an Open Source Initiative (OSI) license. The following restrictions apply:**
+*   **No Redistribution**: You may not distribute, sublicense, rent, lease, or sell the software (or modified versions) to third parties.
+*   **No White-labeling**: You may not remove copyright notices, re-brand, rename, or claim authorship of this software.
+*   **No Managed Services / SaaS**: You may not offer this software to third parties as a standalone managed service or API where the primary value is access to DeltaBox itself.
+
+Please see the included `LICENSE` file for the complete legal terms.
