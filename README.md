@@ -21,13 +21,13 @@
 
 Large Language Models (LLMs) and Agentic AI have evolved to act as intelligent "Brains", capable of complex reasoning and task planning. However, they lack a dedicated "Body" to execute graphical, real-world interactions.
 
-**DeltaBox** bridges this gap. It is an enterprise-grade orchestration engine that instantly spins up isolated, containerized Linux desktop environments (equipped with web browsers and graphical applications). Through the native **Delta Control Protocol** and **Model Context Protocol (MCP)**, your AI agents can visually perceive the screen using OS-level Accessibility Trees (AT-SPI2) and physically interact with the environment using human-like mouse and keyboard movements.
+**DeltaBox** bridges this gap by providing **Full Computer Automation**. It is an enterprise-grade orchestration engine that instantly spins up isolated, containerized Linux desktop environments. Whether you are running highly intelligent, autonomous agents or simple, rule-based "dumb" bots, DeltaBox gives them a complete sandbox to operate in. Through the native **Delta Control Protocol** and **Model Context Protocol (MCP)**, your AI agents can visually perceive the entire screen using OS-level Accessibility Trees (AT-SPI2) and physically interact with *any* application—from web browsers to desktop terminals—using human-like mouse and keyboard movements.
 
 ## 🧠 The Problem & The Solution
 
-**The Problem:** Traditional automation tools rely on brittle DOM-parsing (Puppeteer, Selenium) which break instantly when websites change their layout, use Shadow DOMs, or rely heavily on dynamic Single Page Application (SPA) rendering. They force the AI to read thousands of tokens of useless HTML structural data.
+**The Problem:** Traditional automation tools rely on brittle, application-specific hooks (like Puppeteer for browsers or WinAppDriver for Windows). They break instantly when UI layouts change, use Shadow DOMs, or rely heavily on dynamic rendering. They force the AI to read thousands of tokens of useless structural code just to click a button.
 
-**The Solution:** DeltaBox provides a true **Visual Sandbox**. Your AI agent "sees" exactly what a human sees (via highly token-optimized AT-SPI2 semantic trees) and clicks exactly where a human would click (via coordinate-based API commands mapped to X11). Because the interaction happens at the operating-system level inside an isolated graphical server, it is completely agnostic to underlying website code and perfectly models human interaction.
+**The Solution:** DeltaBox provides a true **Visual Sandbox for the entire Operating System**. Your AI agent "sees" exactly what a human sees (via highly token-optimized AT-SPI2 semantic trees across the entire desktop) and clicks exactly where a human would click (via coordinate-based API commands mapped to X11). Because the interaction happens at the OS level, it is completely agnostic to underlying application code or website structure, perfectly modeling true human-computer interaction.
 
 ## ✨ Core Offerings
 
@@ -55,7 +55,7 @@ While your AI agents operate in the background, you maintain complete oversight.
 DeltaBox is designed with a microservice architecture to ensure stability and isolation:
 
 - **The Swarm Manager (FastAPI)**: The central brain of the infrastructure. It communicates directly with the Docker daemon to allocate resources, deploy containers, and route proxy traffic.
-- **Delta Nodes**: The individual execution sandboxes. Each node is a lightweight, headless X11 environment running a Chromium browser, an accessibility tree parser (AT-SPI), and the local API receiver.
+- **Delta Nodes**: The individual execution sandboxes. Each node is a lightweight, headless X11 environment running a complete graphical desktop, an accessibility tree parser (AT-SPI), and the local API receiver.
 - **Nginx Reverse Proxy**: Securely routes traffic and serves the real-time Cloud Console dashboard to operators.
 
 ---
