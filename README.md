@@ -122,46 +122,33 @@ http://localhost:9090
 
 Once a Delta Node is spawned, it exposes the **Delta Control Protocol V1.0**. Your AI Agent uses this API to interact with the environment. 
 
-A full interactive Swagger UI is generated dynamically for every node at `http://localhost:<NODE_PORT>/docs`.
+A full interactive Swagger UI is generated dynamically for every node at `http://localhost:9090/api/<node id>/docs`.
 
 ### Core Endpoints
 
 #### Visual Perception
-```http
-GET /system/screenshot
-```
-Returns a high-resolution base64 or binary image of the current desktop state, ready to be ingested by Multimodal LLMs (e.g., GPT-4o, Claude 3.5 Sonnet).
+*   `GET /vision/parse_ui`: Extracts the highly-optimized OS-level Accessibility Tree. Supports filtering by `clickable` or `readable` elements to drastically reduce token payload.
+*   `GET /system/screenshot`: Returns a high-resolution base64 or binary image of the current desktop state for Multimodal fallback.
 
-#### Humanized Mouse Control
-```http
-POST /mouse/move
-```
-```json
-{
-  "x": 850,
-  "y": 420,
-  "profile": "normal"
-}
-```
-Moves the cursor to the requested coordinates using natural Bezier curves.
+#### Action Routing & Mouse Control
+*   `POST /action/click_component`: The primary interaction endpoint. Takes a structural `id` from the parsed UI tree, calculates the physical center, and simulates a humanized Bezier curve mouse click. Can automatically return the updated UI tree in the same response.
+*   `POST /mouse/move`: Moves the cursor to explicit raw `[x, y]` coordinates using natural Bezier curves and easing profiles.
+*   `POST /action/solve_captcha`: A specialized routine that detects Cloudflare/reCAPTCHA challenges and injects a unique hesitation physics profile to bypass biometric behavioral checks.
 
 #### Keyboard Interaction
-```http
-POST /keyboard/type
-```
-```json
-{
-  "text": "Hello, World!",
-  "delay_ms": 150
-}
-```
-Types the string into the currently focused window with simulated human keystroke delays.
+*   `POST /keyboard/type`: Types strings into the currently focused window with simulated human keystroke delays and natural jitter.
+*   `POST /keyboard/hotkey`: Executes complex OS-level multi-key combinations (e.g., `['ctrl', 'c']`, `['alt', 'tab']`).
 
-#### Terminal Execution
-```http
-POST /system/command
-```
-Allows the agent to execute internal shell commands, such as launching applications or retrieving system logs.
+#### System Control
+*   `POST /system/command`: Allows the agent to execute internal bash shell commands, download dependencies, or retrieve system logs from the container.
+
+---
+
+## 🤖 Model Context Protocol (MCP) Support
+
+DeltaBox provides first-class support for the **Model Context Protocol (MCP)**, allowing seamless, zero-config integration with modern agentic IDEs and assistants like Anthropic's **Claude Desktop**.
+
+Instead of writing custom API wrappers, you can connect your agent directly to a DeltaBox node via MCP over SSE (Server-Sent Events). The MCP Server automatically registers all the Delta Protocol endpoints as native, callable tools complete with rich prompt descriptions and strict JSON schemas, allowing the LLM to autonomously explore and interact with the desktop environment.
 
 ---
 
