@@ -152,13 +152,17 @@ Instead of writing custom API wrappers, you can connect your agent directly to a
 
 ---
 
-## 👨‍💻 Created By
+## 💼 Enterprise Swarm Orchestration by Deltavix
 
-**DeltaBox** was created and made completely free to use by **Palash Kumbalwar** at **Deltavix Global** to empower developers building the next generation of autonomous AI systems.
+This repository provides the local, personal-use version of DeltaBox. 
 
-- 🔗 **LinkedIn**: [Palash Kumbalwar](https://www.linkedin.com/in/palashkumbalwar)
-- 🌐 **Company**: [Deltavix Global](https://www.deltavixglobal.com)
-- 📧 **Contact for Customization & Enterprise Support**: [info@deltavixglobal.com](mailto:info@deltavixglobal.com)
+Are you a CTO, Hedge Fund, or AI Agency trying to scale this to a **500-node headless data extraction swarm** running on a 20GB DuckDB Parquet Data Lake? Need custom proxy-rotators, stateful cluster management, and high-frequency bypasses for DataDome/Cloudflare?
+
+Stop wasting thousands of dollars on SaaS APIs that get blocked every week. Own your infrastructure.
+
+**Contact Deltavix for Customization & Enterprise Deployments:**
+*   📧 **Direct Email:** [info@deltavixglobal.com](mailto:info@deltavixglobal.com)
+*   🔗 **Connect with the Founder:** [Palash Kumbalwar on LinkedIn](https://www.linkedin.com/in/palashkumbalwar)
 
 ---
 
