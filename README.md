@@ -161,6 +161,7 @@ Are you a CTO, Hedge Fund, or AI Agency trying to scale this to a **500-node hea
 Stop wasting thousands of dollars on SaaS APIs that get blocked every week. Own your infrastructure.
 
 **Contact Deltavix for Customization & Enterprise Deployments:**
+*   🌐 **Company Website:** [Deltavix Global](https://www.deltavixglobal.com)
 *   📧 **Direct Email:** [info@deltavixglobal.com](mailto:info@deltavixglobal.com)
 *   🔗 **Connect with the Founder:** [Palash Kumbalwar on LinkedIn](https://www.linkedin.com/in/palashkumbalwar)
 
