@@ -33,10 +33,12 @@ Large Language Models (LLMs) and Agentic AI have evolved to act as intelligent "
 
 DeltaBox's OS-level agnostic approach makes it the ultimate engine for diverse automation workloads:
 
-*   **Agentic AI "Bodies"**: Provide a safe, isolated sandbox for autonomous agents (like LangChain agents, Claude Computer Use) to browse the web, write code, or execute complex desktop workflows without compromising your host machine.
-*   **Non-API Solutions**: Automate interactions with legacy desktop software, enterprise portals, or proprietary ERP systems that completely lack modern APIs. If a human can see and click it on a screen, your AI can automate it.
-*   **Next-Gen Automation Testing**: Test desktop and web applications exactly as a user experiences them. Move beyond brittle CSS selectors and test full end-to-end OS interactions visually.
-*   **Massive Parallel Workflows**: Spin up 100 isolated graphical containers simultaneously to execute complex, distributed autonomous research or cross-application tasks.
+*   **Agentic AI "Bodies"**: Provide a safe, isolated sandbox for autonomous agents (like OpenClaw, Hermes, ClaudeCode, AutoGPT) to browse the web, write code, or execute complex desktop workflows without compromising your host machine.
+*   **Non-API Solutions (Legacy Automation)**: Automate interactions with legacy desktop software or proprietary ERP systems that completely lack modern APIs. If a human can see and click it on a screen, your AI can automate it.
+*   **Synthetic Data Generation**: Automate desktop environments at scale to generate massive datasets of visual interactions, screenshots, and UI state-changes to train new Vision-Language Models (VLMs) and foundation models.
+*   **Next-Gen RPA Modernization**: Upgrade brittle, expensive Robotic Process Automation (RPA) pipelines with resilient AI models that visually interpret the screen, eliminating the need for hardcoded selectors.
+*   **Security & Malware Sandboxing**: Safely execute and monitor untrusted, AI-generated code or complex web scripts within completely disposable, hardware-isolated Linux environments.
+*   **Massive Parallel Workflows**: Spin up 100+ isolated graphical containers simultaneously to execute complex, distributed autonomous research or cross-application tasks.
 
 ## ✨ Core Offerings
 
