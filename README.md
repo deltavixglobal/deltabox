@@ -156,7 +156,7 @@ Instead of writing custom API wrappers, you can connect your agent directly to a
 
 This repository provides the local, personal-use version of DeltaBox. 
 
-Are you a CTO, Hedge Fund, or AI Agency trying to scale this to a **500-node headless data extraction swarm** running on a 20GB DuckDB Parquet Data Lake? Need custom proxy-rotators, stateful cluster management, and high-frequency bypasses for DataDome/Cloudflare?
+Are you a CTO, Hedge Fund, or AI Agency trying to scale this to a **500-node headless data extraction swarm** Need custom proxy-rotators, stateful cluster management, and high-frequency bypasses for DataDome/Cloudflare?
 
 Stop wasting thousands of dollars on SaaS APIs that get blocked every week. Own your infrastructure.
 
