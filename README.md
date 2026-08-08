@@ -14,10 +14,9 @@
     <a href="#delta-control-protocol">API</a> 
   </p>
 
-  <br/>
-
-  <video src="https://github.com/deltavixglobal/deltabox/raw/main/assets/demo_node1.mp4" controls="controls" width="100%"></video>
 </div>
+
+https://github.com/deltavixglobal/deltabox/raw/main/assets/demo_node1.mp4
 
 ---
 
