@@ -13,6 +13,10 @@
     <a href="#installation">Installation</a> •
     <a href="#delta-control-protocol">API</a> 
   </p>
+
+  <br/>
+
+  <video src="assets/demo_node1.mp4" controls="controls" width="100%"></video>
 </div>
 
 ---
