@@ -16,7 +16,7 @@
 
 </div>
 
-https://github.com/deltavixglobal/deltabox/raw/main/assets/demo_node1.mp4
+<video src="https://github.com/deltavixglobal/deltabox/raw/main/assets/demo_node1.mp4" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;"></video>
 
 ---
 
