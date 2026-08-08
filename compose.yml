@@ -8,6 +8,7 @@ services:
       - ROLE=manager
       - POOL_TOTAL_CPUS=4
       - POOL_TOTAL_RAM_GB=8
+      - HOST_WORKSPACE_DIR=${PWD}/workspaces
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${PWD}/workspaces:/all_workspaces
