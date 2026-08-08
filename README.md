@@ -96,7 +96,7 @@ DeltaBox is designed with a microservice architecture to ensure stability and is
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/deltavix/deltabox.git
+git clone https://github.com/deltavixglobal/deltabox.git
 cd deltabox
 ```
 
