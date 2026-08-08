@@ -1,7 +1,7 @@
 services:
 
   deltabox-manager:
-    image: deltabox:latest
+    image: deltavixglobal/deltabox:latest
     container_name: deltabox-manager
     restart: unless-stopped
     environment:
