@@ -177,7 +177,7 @@ Stop wasting thousands of dollars on SaaS APIs that get blocked every week. Own 
 
 ---
 
-## 📄 License (Deltavix Free-to-Use Proprietary License)
+## 📄 License (Deltavix Global Free-to-Use Proprietary License)
 
 This software is completely **Free to Use** for personal, research, and commercial purposes (e.g., using it to run your own AI agents, scraping workflows, or automation pipelines).
 
