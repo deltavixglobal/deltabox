@@ -162,7 +162,7 @@ Instead of writing custom API wrappers, you can connect your agent directly to a
 
 ---
 
-## 💼 Enterprise Swarm Orchestration by Deltavix
+## 💼 Enterprise Swarm Orchestration by Deltavix Global
 
 This repository provides the local, personal-use version of DeltaBox. 
 
